@@ -4,141 +4,313 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+h1,h2,h3,h4,h5,h6 {font-family:  "Raleway", sans-serif}
+body
+.w3-bar .w3-button {
+    padding: 16px;
+}
 </style>
-<body class="w3-light-grey">
+<body class="w3-pale-yellow">
 
-<!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
-
-  <!-- The Grid -->
-  <div class="w3-row-padding">
-  
-    <!-- Left Column -->
-    <div class="w3-third">
-    
-      <div class="w3-white w3-text-grey w3-card-4">
-        <div class="w3-display-container">
-          <img src="khem.jpg" style="width:100%" alt="Khem">
-          <div class="w3-display-bottomleft w3-container w3-text-black">
-            <h2>Jane Doe</h2>
-          </div>
-        </div>
-        <div class="w3-container">
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Designer</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>London, UK</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>ex@mail.com</p>
-          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>1224435534</p>
-          <hr>
-
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
-          <p>Adobe Photoshop</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
-          </div>
-          <p>Photography</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
-              <div class="w3-center w3-text-white">80%</div>
-            </div>
-          </div>
-          <p>Illustrator</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
-          </div>
-          <p>Media</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
-          </div>
-          <br>
-
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
-          <p>English</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
-          </div>
-          <p>Spanish</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
-          </div>
-          <p>German</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
-          </div>
-          <br>
-        </div>
-      </div><br>
-
-    <!-- End Left Column -->
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-dark-grey w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide"><img class="w3-image" src="55555555.png" alt="55555555" width="85" height="100" ></a>
+<!-- Navigation bar with social media icons -->
+  <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> ABOUT US</a>
+      <div class="w3-dropdown-hover w3-hide-small">
+   <button class="w3-button" title="Notifications">MEMORY <i class="fa fa-caret-down"></i></button>
+   <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+     <a href="#" class="w3-bar-item w3-button">START</a>
+     <a href="#" class="w3-bar-item w3-button">BROTHER & SISTER</a>
+     <a href="#" class="w3-bar-item w3-button">FRIEND</a>
+   </div>
+ </div>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT US</a>
     </div>
-
-    <!-- Right Column -->
-    <div class="w3-twothird">
-    
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Front End Developer / w3schools.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Web Developer / something.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
-          <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Graphic Designer / designsomething.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
-        </div>
-      </div>
-
-      <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>W3Schools.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
-          <p>Web Development! All I need to know in one place</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>London Business School</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
-          <p>Master Degree</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>School of Coding</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
-          <p>Bachelor Degree</p><br>
-        </div>
-      </div>
-
-    <!-- End Right Column -->
-    </div>
-    
-  <!-- End Grid -->
   </div>
-  
-  <!-- End Page Container -->
 </div>
 
-<footer class="w3-container w3-teal w3-center w3-margin-top">
-  <p>Find me on social media.</p>
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT US</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">MEMORY</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT US</a>
+</nav>
+
+<!-- w3-content defines a container for fixed size centered content,
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b><img class="w3-image" src="Untitled-1.png" alt="Untitled-1" width="600" height="600" ></b></h1>
+    <h6>Welcome to Memories in Prince of Songkla University <span class="w3-tag">KAM & KHEM</span></h6>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide w3-card" id="home">
+    <img class="w3-image" src="Prince.jpg" alt="Prince" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white"> </h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>  </b></h1>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-amber w3-card w3-margin w3-padding-large">
+        <div class="w3-container w3-padding  w3-purple w3-card   id="myNavbar"">
+          <div class="w3-center">
+            <h3>START LEARNING AT PRINCE OF SONGKLA UNIVERSITY</h3>
+            <h5><span class="w3-opacity"></span></h5>
+          </div>
+        </div>
+
+        <div class="w3-justify">
+          <div class="w3-center">
+          <img src="PSU.jpg" alt="PSU" style="width:100%" class="w3-padding-16">
+        </div>
+          <p><strong>วันแรก ณ มหาวิทยาลัมหาวิทยาลัยสงขลานครินทร์ !</strong> ณ วันแรกที่ได้มีโอกาสเข้ามาเรียนต่อที่มหาลัยสงขลานครินทร์รู้สึกดีใจมากเพราะเป็นมหาลัยที่ใฝ่ฝันและต้องการที่จะเข้าเรียน และก็ถึงเวลาที่ได้เข้ามาใช้ชีวิตจริงๆในรั้วมหาลัยแห่งนี้ วันแรกเริ่มจากการที่คณะจัดกิจกรรมขึ้นมา คือ ให้น้องๆที่กำลังจะขึ้นปี1 มาเข้าค่าย ซึ่งมีชื่อว่า “ค่ายสานใจ” เป็นค่ายที่เตรียมความพร้อมให้กับน้องๆก่อนเปิดเทอม  วันแรกที่ได้เข้าร่วมกิจกรรมค่ายสานใจก็จะยังรู้สึก งงๆ หน่อยเพราะยังไม่คุ้นชินกับมหาลัยและบวกกับคิดถึงบ้านอยากกลับบ้านและยังไม่ค่อยรู้จักเพื่อนเยอะเท่าไหร่แต่กิจกรรมวันแรกก็ผ่านไปได้ด้วยดี</p>
+          <p>ตั้งแต่ได้มาเรียนที่นี่ ได้รับความรู้สึกอย่างหลากหลายด้าน ทั้งความรู้สึกที่ดีต่อมหาลัย ความรู้สึกภูมิใจและความรู้สึกรักในมหาลัย ทำให้รู้สึกว่าที่นี่คือบ้านหลังที่สอง  บ้านหลังนี้ทำให้ได้มาพบเจอกับเพื่อน</p>
+          <p class="w3-left"><button class="w3-button w3-blue w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-teal" onclick="myFunction('demo1')" id="myBtn"><b> อ่านเพิ่ม  </b> <span class="w3-tag w3-white"></span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+
+
+
+              <div class="w3-col l10 m9">
+                <h4> <span class="w3-opacity w3-medium"></span></h4>
+                <p></p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-amber w3-card w3-margin w3-padding-large">
+        <div class="w3-container w3-padding w3-green w3-card   id="myNavbar"">
+          <div class="w3-center">
+            <h3>BROTHER AND SISTER</h3>
+            <h5> <span class="w3-opacity"></span></h5>
+          </div>
+        </div>
+
+        <div class="w3-justify">
+          <div class="w3-center">
+          <img src="888888.jpg" alt="888888" width="300" height="500" style="width:70%" class="w3-padding-16">
+          <img src="Kam.jpg" alt="Kam" width="300" height="500" style="width:70%" class="w3-padding-16">
+        </div>
+          <p><strong> กิจกรรมพี่รหัส พี่เทค เป็นสิ่งที่แสนจะน่ารักในวัยเรียน !</strong>  เพราะการเป็นที่พี่รหัส น้องรหัส หรือน้องเทคกับใคร ก็มักจะทำให้เราเหมือนได้เพื่อนใหม่อีกคน ที่ต่อให้เรียนจบก็จะยังคงรู้จักกันไปชั่วชีวิตเหมือนพี่น้องจริงๆ การ “เทคน้องรหัส” จึงเป็นเหมือนสะพานเชื่อม ระหว่างกลุ่มคนใหม่ไปสู่กลุ่มคนเก่า ให้ได้มีปฏิสัมพันธ์ รู้จักมักคุ้นอันดี เพื่อความแนบแน่นทางจิตใจต่อกัน ซึ่งวัตถุประสงค์ในการจัดกิจกรรมเทคน้องรหัส ก็เพื่อสร้างสายใยความสัมพันธ์ที่ดีระหว่าง รุ่นพี่ - รุ่นน้อง สร้างขวัญและกำลังใจในการเข้ามาอยู่ร่วมกันด้วยไมตรีจิตและมิตรภาพ </p>
+          <p class="w3-left"><button class="w3-button w3-blue w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-teal" onclick="myFunction('demo2')"><b>อ่านเพิ่ม  </b> <span class="w3-tag w3-white"></span></button></p>
+          <p class="w3-clear"></p>
+
+          <!-- Example of comment field -->
+          <div id="demo2" style="display:none">
+            <div class="w3-row">
+              <hr>
+              <div class="w3-col l2 m3">
+
+              </div>
+              <div class="w3-col l10 m9">
+                <h4> <span class="w3-opacity w3-medium"></span></h4>
+                <p></p><br>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+
+              </div>
+              <div class="w3-col l10 m9">
+                <h4><span class="w3-opacity w3-medium"></span></h4>
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-amber w3-card w3-margin w3-padding-large">
+        <div class="w3-container w3-padding  w3-deep-orange w3-card   id="myNavbar"">
+          <div class="w3-center">
+            <h3>FRIEND </h3>
+            <h5> <span class="w3-opacity"></span></h5>
+          </div>
+        </div>
+
+        <div class="w3-justify">
+          <div class="w3-center">
+          <img src="Friend.jpg" alt="Friend" width="200" height="500" style="width:50%" class="w3-padding-16">
+        </div>
+          <p><strong> เพื่อน ! </strong> ใครจะไปเชื่อว่าในโลกนี้ยังจะมีคนที่รักและจริงใจกับเรานอกจากพ่อและแม่ แต่แน่หล่ะฉันคือคนหนึ่งที่ไม่เชื่อจนกระทั่งฉันได้เจอมิตรภาพอันยิ่งใหญ่ที่เรียกว่า เพื่อน
+เพื่อนในคำนี้มีนิยามบ้างไหมเพื่อนคืออะไรคุณเคยคิดกันบ้างรึเปล่าค่ะ แต่ฉันเมื่อได้เจอเหตุการณ์ที่มีทั้งดีและทั้งร้ายทำให้ฉันพบ นิยามของคำว่า เพื่อน</p>
+          <p class="w3-left"><button class="w3-button w3-blue w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-teal" onclick="myFunction('demo3')"><b>อ่านเพิ่ม</b> <span class="w3-tag w3-white"></span></button></p>
+          <p class="w3-clear"></p>
+
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+
+              </div>
+              <div class="w3-col l10 m9">
+
+                <p></p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+
+              </div>
+              <div class="w3-col l10 m9">
+
+                <p></p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+
+              </div>
+              <div class="w3-col l10 m9">
+
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin w3-card">
+        <img src="khemkam.jpg" alt="khemkam" style="width:100%">
+        <div class="w3-container w3-padding  w3-pink w3-card   id="myNavbar"">
+          <h4>ABOUT US</h4>
+          </div>
+            <div class="w3-container w3-amber">
+              <h2>KAM & KHEM </h2>
+              <p> นักศึกษาชั้นปีที่2 มหาวิทยาลัยสงขลานครินทร์ </p>
+              <p>คณะวิทยาการจัดการ สาขาระบบสารสนเทศ </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Posts -->
+      <div class="w3-white w3-margin w3-card">
+        <div class="w3-container w3-padding w3-pink">
+          <h4>MEMORY</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-amber">
+          <li class="w3-padding-16">
+            <img src="PSU.jpg" alt="PSU" class="w3-left w3-margin-right"  width="50" height="40" style="width:50px">
+            <span class="w3-large">START LEARNING AT PRINCE OF SONGKLA UNIVERSITY </span>
+            <br>
+            <span></span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="Milestone.jpg" alt="Milestone" class="w3-left w3-margin-right" width="50" height="40" style="width:50px">
+            <span class="w3-large">BROTHER AND SISTER</span>
+            <br>
+            <span></span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="Friend.jpg" alt="Friend" class="w3-left w3-margin-right" width="50" height="40" style="width:30px">
+            <span class="w3-large">FRIEND</span>
+            <br>
+            <span></span>
+          </li>
+        <ul class="w3-ul w3-hoverable w3-amber">
+      </div>
+      <hr>
+
+      <!-- Subscribe -->
+      <div class="w3-white w3-margin w3-card">
+        <div class="w3-container w3-padding w3-pink">
+          <h4>CONTACT US</h4>
+        </div>
+        <div class="w3-container w3-amber">
+          <div class="w3-container w3-xlarge w3-padding">
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+          </div>
+          <p>Enter your e-mail below and get notified on the latest blog posts.</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-pale-red">Subscribe</button></p>
+        </div>
+      </div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide"></h2>
+      <p></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey" style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 </footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+function likeFunction(x) {
+    x.style.fontWeight = "bold";
+    x.innerHTML = "✓ Liked";
+}
+</script>
 
 </body>
 </html>
